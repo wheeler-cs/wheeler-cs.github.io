@@ -1,129 +1,21 @@
 <!DOCTYPE html>
 <html>
-<style>
+<head>
 
-/* POSITIONING STYLES */
-/* Positioning of the left-hand "about me" area*/
-.split-minor {
-	height: 100%;
-	width: 20%;
-	position: fixed;
-	z-index: 0;
-	top: 0;
-	overflow-x: hidden;
-	padding-top: 20px;
-}
+<link rel="stylesheet" href="styles/sidebar.css">
+<link rel="stylesheet" href="styles/body.css">
 
-/* Positioning of the right-hand content area*/
-.split-major {
-	height: 100%;
-	width: 80%;
-	position: fixed;
-	z-index: 0;
-	top: 0;
-	overflow-x: hidden;
-	padding-top: 20px;
-}
+</head>
 
-/* Positioning of black vertical bar separating "about me" and content*/
-.split-shadow {
-	height: 100%;
-	width: 5px;
-	position: fixed;
-	z-index: 1;
-	top: 0;
-	overflow-x: hidden;
-	padding-top: 20px;
-}
+<body style="background-color: #242b40;">
 
-/* BACKGROUND COLOR AND BASE AXIS */
-/* Left-hand "about me" section*/
-.left-style {
-	left: 0;
-	background-color: #dddddd;
-}
-
-/* Right-hand content section*/
-.right-style {
-	right: 0;
-	background-color: #ffffff;
-}
-
-/* Separating shadow*/
-.shadow-style {
-	left: 20%;
-	background-color: black;
-}
-
-/* TEXT AND IMAGE POSITIONING*/
-/* Content positioning for left-hand section*/
-.centered-minor {
-	position: relative;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	text-align: center;
-}
-
-/* Content positioning for right-hand section title text*/
-.centered-major {
-	position: relative;
-	top: 2%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	text-align: center;
-}
-
-/* Content positioning for right-hand section content text*/
-.left-justified-major {
-	position: relative;
-	top: 5%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	padding-left: 20px;
-	text-align: left;
-}
-
-/* Content positioning for left-hand profile picture*/
-.centered-img img {
-	width: 150px;
-	border-radius: 50%;
-}
-
-</style>
-
-<!-- Vertical Line -->
-<body>
-<title>Featured Projects</title>
-<div class="split-shadow shadow-style">
+<div class="sidenav">
+	<a href="about_me.html">About Me</a>
 </div>
 
-<!-- Left-Hand "About Me" Section -->
-<div class="split-minor left-style">
-	<div class="centered-minor">
-		<div class="centered-img">
-		<img src="https://avatars.githubusercontent.com/u/96480171?v=4" alt="Profile Picture">
-		<h2>Drew Wheeler</h2>
-		<hr>
-		<p>Undergrad computer science student. Enjoy emulation, gaming, and reverse engineering.</p>
-	</div>
+<div class="main">
+<p><b>Notice 2023-12-22</b>: Website is currently undergoing changes.</p>
 </div>
 
-<!-- Right-Hand Content Section -->
-<div class="split-major right-style">
-	<div class="centered-major">
-		<h2>Featured Projects</h2>
-		<hr>
-	</div>
-	<div class="left-justified-major">
-		<p><b><a href="https://github.com/wheeler-cs/project-verdant/" style="color: black">Project Verdant</a></b>
-		: A mod of the <a href="https://github.com/pret/pokeemerald" style="color:black">Pokemon Emerald decompilation project</a>
-        made with the express intention of being a stand-alone, self-contained game. Implements a combination of enhancements and
-        QoL improvements over the base game in an attempt to add depth.
-		<p><b><a href="https://github.com/wheeler-cs/cisp2410" style="color: black">CISP2410 Archive</a></b>
-		: An archive of an old CISP2410 course that went over computer organization and architecture, assembly, and Arduino.
-		</p>
-	</div>
-</div>
 </body>
 </html>
