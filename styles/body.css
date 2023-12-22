@@ -1,8 +1,42 @@
 
+a:link {
+    color: #b6b6b6;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #b6b6b6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #f1f1f1;
+    text-shadow:
+        0 0 7px #dddddd,
+        0 0 10px #aaaaaa,
+        0 0 21px #777777,
+        0 0 42px #333333;
+}
+
+a:active {
+    color: #b6b6b6;
+    text-decoration: none;
+}
+
+.heading {
+    margin-left: 160px;
+    color: #f1f1f1;
+    font-size: 28px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    padding: 16px 15px;
+}
+
 .main {
     margin-left: 160px;
     color: #f1f1f1;
     font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    padding: 0px 10px;
+    font-family: "Courier New", Courier, monospace;
+    padding: 10px 15px;
 }
