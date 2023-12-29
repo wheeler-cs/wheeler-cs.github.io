@@ -1,10 +1,28 @@
-.text_fadein {
+.text_fadein_fast {
     color: #f1f1f1;
     animation: fadeIn 3s;
     -webkit-animation: fadeIn 3s;
     -moz-animation: fadeIn 3s;
     -o-animation: fadeIn 3s;
     -ms-animation: fadeIn 3s;
+}
+
+.text_fadein_medium {
+    color: #f1f1f1;
+    animation: fadeIn 6s;
+    -webkit-animation: fadeIn 6s;
+    -moz-animation: fadeIn 6s;
+    -o-animation: fadeIn 6s;
+    -ms-animation: fadeIn 6s;
+}
+
+.text_fadein_slow {
+    color: #f1f1f1;
+    animation: fadeIn 9s;
+    -webkit-animation: fadeIn 9s;
+    -moz-animation: fadeIn 9s;
+    -o-animation: fadeIn 9s;
+    -ms-animation: fadeIn 9s;
 }
 
 @keyframes fadeIn {
