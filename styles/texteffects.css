@@ -31,7 +31,6 @@
     100% {opacity: 1;}
 }
 
-
 @-webkit-keyframes fadeIn {
     0% {opacity: 0}
     100% {opacity: 1}
@@ -52,21 +51,34 @@
     100% {opacity: 1}
 }
 
-/* Text Typing */
+
+/* Text Typing Effect */
 .text_container {
     display: inline-block;
     text-align: center;
     width: auto;
 }
 
-.text_typing {
+.text_typing_newline {
     overflow: hidden;
     white-space: nowrap;
+    border-right: 2px solid;
+    border-color: #242b40;
     width: 0;
-    animation: typing;
-    animation-duration: 1.5s;
-    animation-timing-function: steps(30, end);
-    animation-fill-mode: forwards;
+    animation:
+        typing 1.5s steps(30, end) forwards,
+        cursor_blink 0.5s 3;
+}
+
+.text_typing_inf {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid;
+    border-color: #242b40;
+    width: 0;
+    animation:
+        typing 1.5s steps(30, end) forwards,
+        cursor_blink 0.5s infinite;
 }
 
 @keyframes typing {
@@ -92,4 +104,34 @@
 @-ms-keyframes typing {
     0% {width: 0%}
     100% {width: 100%}
+}
+
+@keyframes cursor_blink {
+    0% {border-right-color: transparent}
+    50% {border-right-color: #f1f1f1}
+    100% {border-right-color: transparent}
+}
+
+@-webkit-keyframes cursor_blink {
+    0% {border-right-color: transparent}
+    50% {border-right-color: #f1f1f1}
+    100% {border-right-color: transparent}
+}
+
+@-moz-keyframes cursor_blink {
+    0% {border-right-color: transparent}
+    50% {border-right-color: #f1f1f1}
+    100% {border-right-color: transparent}
+}
+
+@-o-keyframes cursor_blink {
+    0% {border-right-color: transparent}
+    50% {border-right-color: #f1f1f1}
+    100% {border-right-color: transparent}
+}
+
+@-ms-keyframes cursor_blink {
+    0% {border-right-color: transparent}
+    50% {border-right-color: #f1f1f1}
+    100% {border-right-color: transparent}
 }
