@@ -6,11 +6,14 @@
 <link rel="stylesheet" href="styles/sidebar.css">
 <link rel="stylesheet" href="styles/texteffects.css">
 
+<script type="text/javascript" src="js/date_time.js"></script>
+
 <title>wheeler-cs.github.io</title>
 
 </head>
 
-<body style="background-color: #242b40;">
+<!-- TODO: Make clock dynamically update every second -->
+<body style="background-color: #242b40;" onload="insert_clock()">
 
 <div class="sidenav">
 	<a href="index.html"><b><u>Home</u></b></a>
@@ -34,6 +37,11 @@
             <h2 class="text_typing_inf" style="animation-delay: 1.5s;">
                 Computer Science Student
             </h2>
+        </div>
+    </center>
+    <center>
+        <div id="local_clock" class="text_container">
+            [Missing Clock]
         </div>
     </center>
 </div>
