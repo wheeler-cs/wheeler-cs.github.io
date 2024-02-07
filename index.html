@@ -12,8 +12,7 @@
 
 </head>
 
-<!-- TODO: Make clock dynamically update every second -->
-<body style="background-color: #242b40;" onload="update_clock()">
+<body style="background-color: #242b40;" onload="update_time_elements()">
 
 <div class="sidenav">
 	<a href="index.html"><b><u>Home</u></b></a>
@@ -40,8 +39,16 @@
         </div>
     </center>
     <center>
-        <div id="local_clock" class="text_container">
-            [Missing Clock]
+        <div class="text_container">
+            <p class="text_fadein_medium" id="local_clock">
+                [Missing Clock]
+            </p>
+            <p class="text_fadein_medium" id="local_weekday">
+                [Missing Weekday]
+            </p>
+            <p class="text_fadein_medium" id="local_calendar">
+                [Missing Calendar]
+            </p>
         </div>
     </center>
 </div>

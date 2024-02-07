@@ -1,5 +1,6 @@
 /* Text Fade-In */
 .text_fadein_fast {
+    overflow: hidden;
     color: #f1f1f1;
     animation: fadeIn 3s;
     -webkit-animation: fadeIn 3s;
@@ -9,6 +10,7 @@
 }
 
 .text_fadein_medium {
+    overflow: hidden;
     color: #f1f1f1;
     animation: fadeIn 6s;
     -webkit-animation: fadeIn 6s;
@@ -18,6 +20,7 @@
 }
 
 .text_fadein_slow {
+    overflow: hidden;
     color: #f1f1f1;
     animation: fadeIn 9s;
     -webkit-animation: fadeIn 9s;
@@ -27,27 +30,32 @@
 }
 
 @keyframes fadeIn {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
+    0% {opacity: 0}
+    50% {opacity: 0}
+    100% {opacity: 1}
 }
 
 @-webkit-keyframes fadeIn {
     0% {opacity: 0}
+    50% {opacity: 0}
     100% {opacity: 1}
 }
 
 @-moz-keyframes fadeIn {
     0% {opacity: 0}
+    50% {opacity: 0}
     100% {opacity: 1}
 }
 
 @-o-keyframes fadeIn {
     0% {opacity: 0}
+    50% {opacity: 0}
     100% {opacity: 1}
 }
 
 @-ms-keyframes fadeIn {
     0% {opacity: 0}
+    50% {opacity: 0}
     100% {opacity: 1}
 }
 
