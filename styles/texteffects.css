@@ -148,9 +148,27 @@
 .clock_container {
     display: inline-block;
     position: fixed;
-    width: 85%;
+    width: 35%;
+    height: 30%;
     bottom: 3%;
-    left: 180px; /* Offset from sidebar */
+    left: 17%; /* Offset from sidebar */
+    border-radius: 10px;
+    text-align: left;
+    padding-left: 2%;
+    animation: fadeIn 6s;
+    -webkit-animation: fadeIn 6s;
+    -moz-animation: fadeIn 6s;
+    -o-animation: fadeIn 6s;
+    -ms-animation: fadeIn 6s;
+}
+
+.bin_clock_container {
+    display: inline-block;
+    position: fixed;
+    height: 30%;
+    width: 35%;
+    bottom: 3%;
+    left: 56%; /* Offset from sidebar */
     border-radius: 10px;
     text-align: left;
     padding-left: 2%;
