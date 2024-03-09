@@ -60,7 +60,7 @@ function get_binary_clock_string() {
     // Convert time from decimal to binary string
     bin_time_hours = time_hours.toString(2);
     bin_time_minutes = time_minutes.toString(2);
-    bin_time_seconds = time_minutes.toString(2);
+    bin_time_seconds = time_seconds.toString(2);
     // Pad binary time strings if needed
     // Hours
     string_difference = 3 - bin_time_hours.length;
@@ -75,15 +75,15 @@ function get_binary_clock_string() {
     for(let i = 0; i < string_difference; i++)
         bin_time_seconds = "0" + bin_time_seconds;
     // Concat binary strings to one large string
-    binary_time = is_pm + bin_time_hours + bin_time_minutes + bin_time_seconds;
-    // Convert 0 and 1 to Unicode circles
-    let empty_circle = '\u{25CB}';
-    let filled_circle = '\u{25CF}';
+    binary_time = is_pm + " " + bin_time_hours + " " + bin_time_minutes + " " + bin_time_seconds;
+
     for(let i = 0; i < binary_time.length; i++) {
-        if(binary_time[i] == '0')
-            binary_time[i] = empty_circle;
-        else
-            binary_time[i] = filled_circle;
+        if(binary_time[i] == '0') {
+            binary_time[i] = '\u{25CB}';
+        }
+        else {
+            binary_time[i] = '\u{25CF}';
+        }
     }
 
     return binary_time;
