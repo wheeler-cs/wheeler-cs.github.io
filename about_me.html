@@ -5,11 +5,13 @@
 <link rel="stylesheet" href="styles/body.css">
 <link rel="stylesheet" href="styles/sidebar.css">
 
+<script type="text/javascript" src="js/time_from.js"></script>
+
 <title>wheeler-cs.github.io</title>
 
 </head>
 
-<body style="background-color: #242b40;">
+<body style="background-color: #242b40;" onload="update_experience()">
 
 <div class="sidenav">
     <a href="index.html"><b>Home</b></a>
@@ -119,11 +121,12 @@
             <tr>
                 <td width="50%" style="vertical-align: top;">
                     <ul>
-                        <li>4 years experience with C++.</li>
-                        <li>2 years experience with C.</li>
-                        <li>1 year experience with Python.</li>
-                        <li>1 year experience with Google Cloud.</li>
-                        <li>Regularly use Linux and Debian-based OSes.</li>
+                        <li><a id="os_windows"></a> experience with Windows.</li>
+                        <li><a id="os_linux"></a> experience with Linux.</li>
+                        <li><a id="lang_cpp"></a> experience with C++.</li>
+                        <li><a id="lang_c"></a> experience with C.</li>
+                        <li><a id="lang_python"></a> experience with Python.</li>
+                        <li><a id="tech_gcloud"></a> experience with Google Cloud.</li>
                     </ul>
                 </td>
                 <td style="vertical-align: top;">
