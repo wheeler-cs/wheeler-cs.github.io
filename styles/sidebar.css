@@ -1,15 +1,20 @@
 
 .sidenav {
     height: 100%;
-    width: 10%;
+    width: 15%;
     text-align: center;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #1e222e;
+    background-color: #222222;
     overflow-x: hidden;
     padding-top: 20px;
+}
+
+.sidenav p {
+    color: #f0f0f0;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .sidenav a {
@@ -34,7 +39,7 @@
 .image_bottom_left {
     position: fixed;
     bottom: 16px;
-    height: 40px;
-    width: 40px;
+    height: 50%;
+    width: 50%;
     left: 4%;
 }

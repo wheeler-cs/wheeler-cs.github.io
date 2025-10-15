@@ -34,9 +34,9 @@ a:active {
 }
 
 .main {
-    margin-left: 10%;
-    color: #f1f1f1;
-    font-size: 20px;
+    margin-left: 15%;
+    color: #222222;
+    font-size: 1em;
     font-family: "Courier New", Courier, monospace;
     padding: 10px 15px;
 }
