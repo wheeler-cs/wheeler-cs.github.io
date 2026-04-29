@@ -1,0 +1,11 @@
+
+.center_float {
+    background-color: white;
+    height: 65%;
+    width: 30%;
+    margin-top: 15vw;
+    margin-left: 32vw;
+    border-radius: 3vw;
+    padding-top: 2vw;
+    text-align: center;
+}

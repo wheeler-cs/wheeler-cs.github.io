@@ -1,0 +1,44 @@
+
+.text_field {
+    background-color: rgb(226, 226, 226);
+    position: absolute;
+    z-index: 10;
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 90%;
+    height: 80%;
+}
+
+.profile_field {
+    background-color: white;
+    border-radius: 1vw;
+    position: absolute;
+    z-index: 15;
+    margin-left: 30%;
+    margin-top: 2%;
+    width: 40%;
+    height: 30%;
+    text-align: center;
+    box-shadow: 0px 10px 10px rgb(206, 206, 206);
+}
+
+.profile_picture {
+    height: 30%;
+    width: 30%;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 4%;
+}
+
+.profile_text {
+    height: 40%;
+    width: 60%;
+    margin-left: 37%;
+    margin-top: 8%;
+    font-size: 1.25vw;
+}
+
+td {
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
