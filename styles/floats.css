@@ -1,11 +1,39 @@
 
-.center_float {
+.left_float {
     background-color: white;
-    height: 65%;
-    width: 30%;
-    margin-top: 15vw;
-    margin-left: 32vw;
+    height: 90%;
+    width: 25vw;
+    margin-top: 5vw;
+    margin-left: -3vw;
     border-radius: 3vw;
     padding-top: 2vw;
     text-align: center;
+    position: absolute;
+}
+
+.center_float {
+    background-color: white;
+    font-size: x-large;
+    height: 65%;
+    width: 36vw;
+    margin-top: 14vw;
+    margin-left: 24.5vw;
+    border-radius: 3vw;
+    padding-top: 2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    text-align: center;
+    position: absolute;
+}
+
+.right_float {
+    background-color: white;
+    height: 90%;
+    width: 25vw;
+    margin-top: 5vw;
+    margin-left: 67vw;
+    border-radius: 3vw;
+    padding-top: 2vw;
+    text-align: center;
+    position: absolute;
 }
